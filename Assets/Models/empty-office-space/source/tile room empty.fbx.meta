@@ -3,12 +3,127 @@ guid: 752634f4dcf068c4280534c7a57c4f15
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: f47aba6f960fc5e4c951733d1552464b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 1f937613df2396c4a8a4f8c6787c6df4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.004
+    second: {fileID: 2100000, guid: 18f1cbbcd154f5e43bc3577b3321a139, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.005
+    second: {fileID: 2100000, guid: 58275c9d007a0cd4c920cefce7f45667, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.007
+    second: {fileID: 2100000, guid: 68e1eb988b1a3304f8e1470357a144f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.008
+    second: {fileID: 2100000, guid: 1b3dd398800f463459e0f69b9a9ed9dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.009
+    second: {fileID: 2100000, guid: e5a189fff2472264c90438b0766383d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.023
+    second: {fileID: 2100000, guid: 1771dd660dbe7f245add2feaa1528af5, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: double door
+    second: {fileID: 2800000, guid: 2944264f5ec0f4946af0afa692c72ad6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: double door normal
+    second: {fileID: 2800000, guid: 5afc20d6c16fe9d4089f1a693af57f2a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: exit sign
+    second: {fileID: 2800000, guid: 61a028fac41e2924fbfa5348e5da4881, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: herringbone_parquet_diff_4k
+    second: {fileID: 2800000, guid: b01a96cd59a189f41b7b2ff4c4f10979, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: herringbone_parquet_nor_gl_4k
+    second: {fileID: 2800000, guid: ed7b9db60ba7f7841b37472af23e96ac, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: herringbone_parquet_rough_4k
+    second: {fileID: 2800000, guid: da829a20568a28f498ae7b766ace6b68, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: light switch
+    second: {fileID: 2800000, guid: 5ec7c7cc46361a44087c4f2c2a22baf2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: office ceiling
+    second: {fileID: 2800000, guid: 72cc49249844ba24683b73c2315908d1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: office ceiling light
+    second: {fileID: 2800000, guid: 68316f934e249e947a6578e2287acfd9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: office ceiling normal
+    second: {fileID: 2800000, guid: 0596b5bf85d7c9e47ac52fdb549b59b6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: paper_0018_color_2k
+    second: {fileID: 2800000, guid: bf719ae53c20a354393922abea30969a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: paper_0018_normal_directx_2k
+    second: {fileID: 2800000, guid: a39e78ea62de75f42a82a08605f30033, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: paper_0018_roughness_2k
+    second: {fileID: 2800000, guid: e52b1e36020a78046aa9cce826f6d8c0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: power outlet normal
+    second: {fileID: 2800000, guid: 48bd9818143a55348af8cb6bd8716da8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: power outlet-EU
+    second: {fileID: 2800000, guid: 0d42abbcd771d624184aed47377fcc13, type: 3}
   materials:
-    materialImportMode: 2
-    materialName: 0
+    materialImportMode: 1
+    materialName: 2
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
