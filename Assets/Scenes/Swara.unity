@@ -14315,7 +14315,7 @@ MonoBehaviour:
   - {fileID: 351504815}
   - {fileID: 35480909}
   - {fileID: 414004397}
-  visualScaleFactor: 10000
+  visualScaleFactor: 5000
   smoothSpeed: 10
 --- !u!4 &1821473846
 Transform:
