@@ -17,6 +17,7 @@ TagManager:
   - QDSUISharedThemeColor
   - QDSUIBorderlessButton
   - SamplesInfoPanel
+  - Stick
   layers:
   - Default
   - TransparentFX
