@@ -8,6 +8,8 @@ public class MicrophoneInputSystem : MonoBehaviour
     [Header("References")]
     [SerializeField] private AudioSource microphoneSource;
     [SerializeField] private SpectrumVisualizer visualizer;
+    [SerializeField] private AudioClip recordingStart;
+    [SerializeField] private AudioSource sfxSource;
     
     [Header("Microphone Settings")]
     [SerializeField] private string[] availableMicrophones;
@@ -17,7 +19,7 @@ public class MicrophoneInputSystem : MonoBehaviour
     
     [Header("Audio Processing")]
     [SerializeField] private float inputGain = 2.0f;
-    [SerializeField] [Range(0f, 1f)] private float noiseSuppression = 0.05f;
+    [SerializeField] [Range(0f, 1f)] private float noiseSuppression = 0.00005f;
     
     [Header("Monitoring Settings")]
     [SerializeField] private bool enableSelfMonitoring = true;
@@ -115,6 +117,7 @@ public class MicrophoneInputSystem : MonoBehaviour
         while (!(Microphone.GetPosition(selectedMicrophone) > 0)) { }
 
         microphoneSource.Play();
+        sfxSource.PlayOneShot(recordingStart);
         isRecording = true;
 
         Debug.Log($"Started recording from microphone: {selectedMicrophone}");
@@ -140,19 +143,19 @@ public class MicrophoneInputSystem : MonoBehaviour
             microphoneSource.GetSpectrumData(sampleBuffer, 0, FFTWindow.BlackmanHarris);
         
             // Debug logging to check if we're getting data
-            // float sum = 0;
-            // for (int i = 0; i < sampleBuffer.Length; i++) {
-            //     sum += sampleBuffer[i];
-            // }
-            //
-            // // Apply noise suppression and amplification
-            // for (int i = 0; i < sampleBuffer.Length; i++) {
-            //     if (sampleBuffer[i] < noiseSuppression) {
-            //         sampleBuffer[i] = 0;
-            //     } else {
-            //         sampleBuffer[i] = sampleBuffer[i] * inputGain;
-            //     }
-            // }
+            float sum = 0;
+            for (int i = 0; i < sampleBuffer.Length; i++) {
+                sum += sampleBuffer[i];
+            }
+            
+            // Apply noise suppression and amplification
+            for (int i = 0; i < sampleBuffer.Length; i++) {
+                if (sampleBuffer[i] < noiseSuppression) {
+                    sampleBuffer[i] = 0;
+                } else {
+                    sampleBuffer[i] = sampleBuffer[i] * inputGain;
+                }
+            }
             
             // Update visualizer with processed data
             visualizer.UpdateSpectrumData(sampleBuffer);

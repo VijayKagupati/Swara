@@ -47,6 +47,20 @@ AudioMixerGroupController:
   m_Mute: 0
   m_Solo: 0
   m_BypassEffects: 0
+--- !u!244 &-6634671067038454032
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 4636db9dd75efae4ab3782915da44be6
+  m_EffectName: Attenuation
+  m_MixLevel: 9cc6b8ef3eedc5a4c877d7bca685fa2e
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
 --- !u!244 &-6248236097164301451
 AudioMixerEffectController:
   m_ObjectHideFlags: 3
@@ -94,6 +108,25 @@ AudioMixerGroupController:
   m_Mute: 0
   m_Solo: 0
   m_BypassEffects: 0
+--- !u!243 &-450101327283951568
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SFX
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 8c8268857088ce24bb96c103d2521cbf
+  m_Children: []
+  m_Volume: da5f275b8e77e844d84958b33f19a614
+  m_Pitch: 16a59c79f0b86aa4f9f62f8667ec98d4
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: -6634671067038454032}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
 --- !u!241 &24100000
 AudioMixerController:
   m_ObjectHideFlags: 0
@@ -117,6 +150,7 @@ AudioMixerController:
     - f1e699639d13b0143b5df661f97180ef
     - a959ec48094fe4f44be2b54623477fbe
     - f9da9b0b6a248fd4db1731f0d8c3877f
+    - 8c8268857088ce24bb96c103d2521cbf
     name: View
   m_CurrentViewIndex: 0
   m_TargetSnapshot: {fileID: 24500006}
@@ -134,6 +168,7 @@ AudioMixerGroupController:
   - {fileID: -5478883309435121011}
   - {fileID: -8162645407001677585}
   - {fileID: 8000977276950970948}
+  - {fileID: -450101327283951568}
   m_Volume: 3ebdc995322d9bd48923974d2e8d4150
   m_Pitch: 779fe4ad2e43623408e87ebaf72dfb0f
   m_Send: 00000000000000000000000000000000
@@ -166,7 +201,8 @@ AudioMixerSnapshotController:
   m_Name: Snapshot
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: de631cf322aad054290bb9e0531ca3e7
-  m_FloatValues: {}
+  m_FloatValues:
+    da5f275b8e77e844d84958b33f19a614: -0.18619981
   m_TransitionOverrides: {}
 --- !u!243 &247947013250692674
 AudioMixerGroupController:

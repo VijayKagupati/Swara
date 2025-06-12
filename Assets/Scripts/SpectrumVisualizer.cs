@@ -3,7 +3,7 @@ using UnityEngine;
 public class SpectrumVisualizer : MonoBehaviour
 {
     [SerializeField] private Transform[] visualBars;
-    [SerializeField] private float visualScaleFactor = 5000f;
+    [SerializeField] private float visualScaleFactor = 1000f;
     [SerializeField] private float smoothSpeed = 10f;
     
     private float[] targetScales;
