@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1615081461, guid: 15f2946a651cfd84c804c26926af6433, type: 3}
+  m_Name: UIError
+  m_EditorClassIdentifier: 
+  _audioVariationClips:
+  - {fileID: 8300000, guid: 03345936b3cd3d3479949b8ca016494a, type: 3}
+  _volume: 1
+  _minDistance: 0
+  _maxDistance: 1000
+  _fadeInTime: 0
+  _fadeOutTime: 0
+  _randomPitchMin: -0.1
+  _randomPitchMax: 0.1

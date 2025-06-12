@@ -1,0 +1,520 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1968423854029446
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4594144276853640}
+  - component: {fileID: -8529274700971016835}
+  - component: {fileID: -7143538120358389901}
+  - component: {fileID: 1771303273501234729}
+  - component: {fileID: 33846589740713664}
+  - component: {fileID: 23121388194836100}
+  - component: {fileID: -6654938713977210078}
+  - component: {fileID: 1546177704680583068}
+  - component: {fileID: 8187286958339393286}
+  m_Layer: 0
+  m_Name: Laser Fan
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4594144276853640
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968423854029446}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: -2.16, z: 3.83}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!114 &-8529274700971016835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968423854029446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1914845131, guid: 3f09449115d51f34f92446e64c2ec898, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-7143538120358389901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968423854029446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1914845131, guid: 3f09449115d51f34f92446e64c2ec898, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1771303273501234729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968423854029446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1914845131, guid: 3f09449115d51f34f92446e64c2ec898, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!33 &33846589740713664
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968423854029446}
+  m_Mesh: {fileID: 0}
+--- !u!23 &23121388194836100
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968423854029446}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 4294967295
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-6654938713977210078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968423854029446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 237544033, guid: 3f09449115d51f34f92446e64c2ec898, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  modIdentity:
+    modName: '[ALPHA]-Interactive-Stage'
+    modVersion: 1.0.0
+    modIdentifier:
+      friendlyIdentifier: "\x83\xF28\xFA\xFC\x83\xD8\x01"
+      identifier: 83f238fafc83d801
+  objectIdentifier:
+    friendlyIdentifier: "\x9D\xFE\xCD\x7F"
+    identifier: 9dfecd7f00000000
+--- !u!114 &1546177704680583068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968423854029446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1288623270, guid: 3f09449115d51f34f92446e64c2ec898, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  typeReference:
+    assemblyName: umod-compiled-829f892a-1a60-4cfd-9919-2b7afe3e6083, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    scriptName: sourcenity.ShowLaserEffect
+    isMonobehaviour: 1
+  instance:
+    behaviour: {fileID: 1546177704680583068}
+    reference:
+      assemblyName: umod-compiled-829f892a-1a60-4cfd-9919-2b7afe3e6083, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      scriptName: sourcenity.ShowLaserEffect
+      isMonobehaviour: 1
+    instanceMembers:
+    - memberName: lasershader
+      memberLink:
+        rid: 0
+    - memberName: show
+      memberLink:
+        rid: 1
+    - memberName: type
+      memberLink:
+        rid: 2
+    - memberName: alignment
+      memberLink:
+        rid: 3
+    - memberName: width
+      memberLink:
+        rid: 4
+    - memberName: length
+      memberLink:
+        rid: 5
+    - memberName: radius
+      memberLink:
+        rid: 6
+    - memberName: mainColor
+      memberLink:
+        rid: 7
+    - memberName: fill
+      memberLink:
+        rid: 8
+    - memberName: numberOfSegments
+      memberLink:
+        rid: 9
+    - memberName: gapBetweenSegments
+      memberLink:
+        rid: 10
+    - memberName: leftSideOffset
+      memberLink:
+        rid: 11
+    - memberName: leftSideColor
+      memberLink:
+        rid: 12
+    - memberName: rightSideOffset
+      memberLink:
+        rid: 13
+    - memberName: rightSideColor
+      memberLink:
+        rid: 14
+    - memberName: visualization
+      memberLink:
+        rid: 15
+    - memberName: textureType
+      memberLink:
+        rid: 16
+    - memberName: customTexture
+      memberLink:
+        rid: 17
+    - memberName: noiseScaling
+      memberLink:
+        rid: 18
+    - memberName: timeScaling
+      memberLink:
+        rid: 19
+    - memberName: distortionStrength
+      memberLink:
+        rid: 20
+    - memberName: fadeOutValue
+      memberLink:
+        rid: 21
+    - memberName: gammaValue
+      memberLink:
+        rid: 22
+    - memberName: generalTransparency
+      memberLink:
+        rid: 23
+    - memberName: cloudsTexture
+      memberLink:
+        rid: 24
+    - memberName: smokeTexture
+      memberLink:
+        rid: 25
+  deserializeInstance: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 0
+      type: {class: TypeHandler_UnityObjectV2, ns: UMod.Shared.Linker.TypeHandler, asm: UMod-Shared}
+      data:
+        behaviour: {fileID: 1546177704680583068}
+        linkType: 1
+        value: {fileID: 0}
+        behaviourID: -1
+    - rid: 1
+      type: {class: TypeHandler_PrimitiveBoolV2, ns: UMod.Shared.Linker.TypeHandler, asm: UMod-Shared}
+      data:
+        behaviour: {fileID: 1546177704680583068}
+        value: 1
+    - rid: 2
+      type: {class: TypeHandler_PrimitiveEnumV2, ns: UMod.Shared.Linker.TypeHandler, asm: UMod-Shared}
+      data:
+        behaviour: {fileID: 1546177704680583068}
+        enumValue: 1
+    - rid: 3
+      type: {class: TypeHandler_PrimitiveEnumV2, ns: UMod.Shared.Linker.TypeHandler, asm: UMod-Shared}
+      data:
+        behaviour: {fileID: 1546177704680583068}
+        enumValue: 1
+    - rid: 4
+      type: {class: TypeHandler_PrimitiveDecimalV2, ns: UMod.Shared.Linker.TypeHandler, asm: UMod-Shared}
+      data:
+        behaviour: {fileID: 1546177704680583068}
+        value: 7.949999809265137
+    - rid: 5
+      type: {class: TypeHandler_PrimitiveDecimalV2, ns: UMod.Shared.Linker.TypeHandler, asm: UMod-Shared}
+      data:
+        behaviour: {fileID: 1546177704680583068}
+        value: 5.860000133514404
+    - rid: 6
+      type: {class: TypeHandler_PrimitiveDecimalV2, ns: UMod.Shared.Linker.TypeHandler, asm: UMod-Shared}
+      data:
+        behaviour: {fileID: 1546177704680583068}
+        value: 0.5
+    - rid: 7
+      type: {class: LinkInstanceV2, ns: UMod.Shared.Linker, asm: UMod-Shared}
+      data:
+        behaviour: {fileID: 1546177704680583068}
+        reference:
+          assemblyName: UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          scriptName: UnityEngine.Color
+          isMonobehaviour: 0
+        instanceMembers:
+        - memberName: r
+          memberLink:
+            rid: 26
+        - memberName: g
+          memberLink:
+            rid: 27
+        - memberName: b
+          memberLink:
+            rid: 28
+        - memberName: a
+          memberLink:
+            rid: 29
+    - rid: 8
+      type: {class: TypeHandler_PrimitiveDecimalV2, ns: UMod.Shared.Linker.TypeHandler, asm: UMod-Shared}
+      data:
+        behaviour: {fileID: 1546177704680583068}
+        value: 1
+    - rid: 9
+      type: {class: TypeHandler_PrimitiveIntV2, ns: UMod.Shared.Linker.TypeHandler, asm: UMod-Shared}
+      data:
+        behaviour: {fileID: 1546177704680583068}
+        value: 3
+    - rid: 10
+      type: {class: TypeHandler_PrimitiveDecimalV2, ns: UMod.Shared.Linker.TypeHandler, asm: UMod-Shared}
+      data:
+        behaviour: {fileID: 1546177704680583068}
+        value: 2.200000047683716
+    - rid: 11
+      type: {class: TypeHandler_PrimitiveDecimalV2, ns: UMod.Shared.Linker.TypeHandler, asm: UMod-Shared}
+      data:
+        behaviour: {fileID: 1546177704680583068}
+        value: 0.18199999630451202
+    - rid: 12
+      type: {class: LinkInstanceV2, ns: UMod.Shared.Linker, asm: UMod-Shared}
+      data:
+        behaviour: {fileID: 1546177704680583068}
+        reference:
+          assemblyName: UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          scriptName: UnityEngine.Color
+          isMonobehaviour: 0
+        instanceMembers:
+        - memberName: r
+          memberLink:
+            rid: 30
+        - memberName: g
+          memberLink:
+            rid: 31
+        - memberName: b
+          memberLink:
+            rid: 32
+        - memberName: a
+          memberLink:
+            rid: 33
+    - rid: 13
+      type: {class: TypeHandler_PrimitiveDecimalV2, ns: UMod.Shared.Linker.TypeHandler, asm: UMod-Shared}
+      data:
+        behaviour: {fileID: 1546177704680583068}
+        value: 0.1599999964237213
+    - rid: 14
+      type: {class: LinkInstanceV2, ns: UMod.Shared.Linker, asm: UMod-Shared}
+      data:
+        behaviour: {fileID: 1546177704680583068}
+        reference:
+          assemblyName: UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          scriptName: UnityEngine.Color
+          isMonobehaviour: 0
+        instanceMembers:
+        - memberName: r
+          memberLink:
+            rid: 34
+        - memberName: g
+          memberLink:
+            rid: 35
+        - memberName: b
+          memberLink:
+            rid: 36
+        - memberName: a
+          memberLink:
+            rid: 37
+    - rid: 15
+      type: {class: TypeHandler_PrimitiveEnumV2, ns: UMod.Shared.Linker.TypeHandler, asm: UMod-Shared}
+      data:
+        behaviour: {fileID: 1546177704680583068}
+        enumValue: 1
+    - rid: 16
+      type: {class: TypeHandler_PrimitiveEnumV2, ns: UMod.Shared.Linker.TypeHandler, asm: UMod-Shared}
+      data:
+        behaviour: {fileID: 1546177704680583068}
+        enumValue: 0
+    - rid: 17
+      type: {class: TypeHandler_UnityObjectV2, ns: UMod.Shared.Linker.TypeHandler, asm: UMod-Shared}
+      data:
+        behaviour: {fileID: 1546177704680583068}
+        linkType: 1
+        value: {fileID: 0}
+        behaviourID: -1
+    - rid: 18
+      type: {class: TypeHandler_PrimitiveDecimalV2, ns: UMod.Shared.Linker.TypeHandler, asm: UMod-Shared}
+      data:
+        behaviour: {fileID: 1546177704680583068}
+        value: 0.36000001430511475
+    - rid: 19
+      type: {class: TypeHandler_PrimitiveDecimalV2, ns: UMod.Shared.Linker.TypeHandler, asm: UMod-Shared}
+      data:
+        behaviour: {fileID: 1546177704680583068}
+        value: 1
+    - rid: 20
+      type: {class: TypeHandler_PrimitiveDecimalV2, ns: UMod.Shared.Linker.TypeHandler, asm: UMod-Shared}
+      data:
+        behaviour: {fileID: 1546177704680583068}
+        value: 1
+    - rid: 21
+      type: {class: TypeHandler_PrimitiveDecimalV2, ns: UMod.Shared.Linker.TypeHandler, asm: UMod-Shared}
+      data:
+        behaviour: {fileID: 1546177704680583068}
+        value: 0.03700000047683716
+    - rid: 22
+      type: {class: TypeHandler_PrimitiveDecimalV2, ns: UMod.Shared.Linker.TypeHandler, asm: UMod-Shared}
+      data:
+        behaviour: {fileID: 1546177704680583068}
+        value: 1.9800000190734863
+    - rid: 23
+      type: {class: TypeHandler_PrimitiveDecimalV2, ns: UMod.Shared.Linker.TypeHandler, asm: UMod-Shared}
+      data:
+        behaviour: {fileID: 1546177704680583068}
+        value: 1
+    - rid: 24
+      type: {class: TypeHandler_UnityObjectV2, ns: UMod.Shared.Linker.TypeHandler, asm: UMod-Shared}
+      data:
+        behaviour: {fileID: 1546177704680583068}
+        linkType: 1
+        value: {fileID: 2800000, guid: 062f240ecac624945a2f826f8d324521, type: 3}
+        behaviourID: -1
+    - rid: 25
+      type: {class: TypeHandler_UnityObjectV2, ns: UMod.Shared.Linker.TypeHandler, asm: UMod-Shared}
+      data:
+        behaviour: {fileID: 1546177704680583068}
+        linkType: 1
+        value: {fileID: 2800000, guid: 54879ed44e1474142a873e2113e8e8e4, type: 3}
+        behaviourID: -1
+    - rid: 26
+      type: {class: TypeHandler_PrimitiveDecimalV2, ns: UMod.Shared.Linker.TypeHandler, asm: UMod-Shared}
+      data:
+        behaviour: {fileID: 1546177704680583068}
+        value: 1
+    - rid: 27
+      type: {class: TypeHandler_PrimitiveDecimalV2, ns: UMod.Shared.Linker.TypeHandler, asm: UMod-Shared}
+      data:
+        behaviour: {fileID: 1546177704680583068}
+        value: 0
+    - rid: 28
+      type: {class: TypeHandler_PrimitiveDecimalV2, ns: UMod.Shared.Linker.TypeHandler, asm: UMod-Shared}
+      data:
+        behaviour: {fileID: 1546177704680583068}
+        value: 0
+    - rid: 29
+      type: {class: TypeHandler_PrimitiveDecimalV2, ns: UMod.Shared.Linker.TypeHandler, asm: UMod-Shared}
+      data:
+        behaviour: {fileID: 1546177704680583068}
+        value: 0.7529411911964417
+    - rid: 30
+      type: {class: TypeHandler_PrimitiveDecimalV2, ns: UMod.Shared.Linker.TypeHandler, asm: UMod-Shared}
+      data:
+        behaviour: {fileID: 1546177704680583068}
+        value: 0.9163084030151367
+    - rid: 31
+      type: {class: TypeHandler_PrimitiveDecimalV2, ns: UMod.Shared.Linker.TypeHandler, asm: UMod-Shared}
+      data:
+        behaviour: {fileID: 1546177704680583068}
+        value: 0.9811320900917053
+    - rid: 32
+      type: {class: TypeHandler_PrimitiveDecimalV2, ns: UMod.Shared.Linker.TypeHandler, asm: UMod-Shared}
+      data:
+        behaviour: {fileID: 1546177704680583068}
+        value: 0
+    - rid: 33
+      type: {class: TypeHandler_PrimitiveDecimalV2, ns: UMod.Shared.Linker.TypeHandler, asm: UMod-Shared}
+      data:
+        behaviour: {fileID: 1546177704680583068}
+        value: 0.7490196228027344
+    - rid: 34
+      type: {class: TypeHandler_PrimitiveDecimalV2, ns: UMod.Shared.Linker.TypeHandler, asm: UMod-Shared}
+      data:
+        behaviour: {fileID: 1546177704680583068}
+        value: 0.9163084030151367
+    - rid: 35
+      type: {class: TypeHandler_PrimitiveDecimalV2, ns: UMod.Shared.Linker.TypeHandler, asm: UMod-Shared}
+      data:
+        behaviour: {fileID: 1546177704680583068}
+        value: 0.9811320900917053
+    - rid: 36
+      type: {class: TypeHandler_PrimitiveDecimalV2, ns: UMod.Shared.Linker.TypeHandler, asm: UMod-Shared}
+      data:
+        behaviour: {fileID: 1546177704680583068}
+        value: 0
+    - rid: 37
+      type: {class: TypeHandler_PrimitiveDecimalV2, ns: UMod.Shared.Linker.TypeHandler, asm: UMod-Shared}
+      data:
+        behaviour: {fileID: 1546177704680583068}
+        value: 0.7490196228027344
+--- !u!114 &8187286958339393286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968423854029446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1354039292, guid: 3f09449115d51f34f92446e64c2ec898, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  links:
+  - linkID: 31169
+    link: {fileID: 1546177704680583068}
+    component: {fileID: 0}
