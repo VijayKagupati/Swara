@@ -32,6 +32,7 @@ public class MicrophoneInputSystem : MonoBehaviour
     private bool isRecording = false;
     private float[] sampleBuffer;
     private int bufferSize = 1024;
+    private bool toggleMonitor = false;
 
     private void Start()
     {
@@ -216,5 +217,28 @@ public class MicrophoneInputSystem : MonoBehaviour
             StopMicrophoneInput();
         else
             StartMicrophoneInput();
+    }
+    
+    public AudioSource GetMicrophoneSource()
+    {
+        return microphoneSource;
+    }
+
+    public string GetSelectedMicrophone()
+    {
+        return selectedMicrophone;
+    }
+
+    public void ToggleMonitor()
+    {
+        if (toggleMonitor)
+        {
+            toggleMonitor = false;
+        }
+        else
+        {
+            toggleMonitor = true;
+        }
+        ToggleSelfMonitoring(toggleMonitor);
     }
 }

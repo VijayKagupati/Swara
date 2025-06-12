@@ -15,7 +15,6 @@ public class PlayDrum : MonoBehaviour
     
     [SerializeField] private AudioSource audioSource;
     [SerializeField] private string drumId; // Set this in inspector to identify the drum
-    private SessionRecordingManager sessionManager;
     private void Awake()
     {
         if (!audioSource)
@@ -23,12 +22,6 @@ public class PlayDrum : MonoBehaviour
             audioSource = GetComponent<AudioSource>();
         }
         
-    }
-    
-    private void Start()
-    {
-        // Find the session manager
-        sessionManager = FindObjectOfType<SessionRecordingManager>();
     }
     
     private void OnTriggerEnter(Collider other)
@@ -61,10 +54,6 @@ public class PlayDrum : MonoBehaviour
 
             // Play the sample
             audioSource.PlayOneShot(selectedSample, volume);
-            if (sessionManager != null)
-            {
-                sessionManager.RecordDrumHit(drumId, volume, selectedSample);
-            }
         }
     }
 }
