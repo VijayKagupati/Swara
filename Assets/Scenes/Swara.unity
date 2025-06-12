@@ -565,7 +565,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &38862833
 Transform:
   m_ObjectHideFlags: 0
@@ -2082,8 +2082,8 @@ AudioReverbZone:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 240415618}
   m_Enabled: 1
-  m_MinDistance: 2
-  m_MaxDistance: 4
+  m_MinDistance: 4
+  m_MaxDistance: 5
   m_ReverbPreset: 3
   m_Room: -1000
   m_RoomHF: -454
@@ -4933,7 +4933,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &642737384
 Transform:
   m_ObjectHideFlags: 0
@@ -5766,7 +5766,7 @@ Transform:
   m_GameObject: {fileID: 740015455}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -1.37, y: 0, z: -4.18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7948,7 +7948,7 @@ Transform:
   m_GameObject: {fileID: 1050061957}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: -4.26, z: -13.933}
+  m_LocalPosition: {x: -1.370001, y: -4.26, z: -18.113}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -32566,7 +32566,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &2608965466109837495
 GameObject:
   m_ObjectHideFlags: 0
@@ -43254,7 +43254,7 @@ Transform:
   m_GameObject: {fileID: 1267062814274441216}
   serializedVersion: 2
   m_LocalRotation: {x: 0.11711266, y: 0.69734114, z: 0.69734114, w: -0.11711257}
-  m_LocalPosition: {x: -7.6631994, y: 0.086849384, z: -2.8912}
+  m_LocalPosition: {x: -7.6631994, y: 0.086849384, z: -3.775}
   m_LocalScale: {x: 7.0408425, y: 7.040844, z: 7.040844}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -43336,7 +43336,7 @@ Transform:
   m_GameObject: {fileID: 3928652861510540821}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.98, y: 0.046049386, z: -1.99}
+  m_LocalPosition: {x: -10.98, y: -0.107, z: -1.99}
   m_LocalScale: {x: 0.12, y: 0.12, z: 0.12}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -61886,7 +61886,6 @@ GameObject:
   - component: {fileID: 7341726864770543390}
   - component: {fileID: 602516894704433735}
   - component: {fileID: 7394654008832968100}
-  - component: {fileID: 7532342181511649208}
   m_Layer: 0
   m_Name: Cylinder.538
   m_TagString: Untagged
@@ -61894,28 +61893,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &7532342181511649208
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7532342181511649207}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 1
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8898503385583211676, guid: 234b11a9d8e0b68418c6e8b5b3cd5ddf, type: 3}
 --- !u!33 &7535092937726431049
 MeshFilter:
   m_ObjectHideFlags: 0
