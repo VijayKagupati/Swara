@@ -167,12 +167,6 @@ Feel free to open an issue or start a discussion - I'd love to hear your thought
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 <div align="center">
 
 **🎵 "Sometimes the best projects happen when you just start building and let passion drive the process" 🚀**
