@@ -4,7 +4,6 @@
 
 [![Unity](https://img.shields.io/badge/Unity-2022.3+-black?logo=unity)](https://unity.com/)
 [![VR](https://img.shields.io/badge/Platform-Meta%20Quest-blue)](https://github.com/VijayKagupati/Swara)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 [![Development Time](https://img.shields.io/badge/Development-7%20Days-orange)](https://github.com/VijayKagupati/Swara)
 
 ---
