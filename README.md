@@ -156,16 +156,6 @@ And all the amazing fellow students who provided feedback and support throughout
 **LinkedIn**: [Connect with me](https://linkedin.com/in/vijaykagupati)  
 **Project Duration**: 7 Days (XR Bootcamp Sprint)
 
----
-
-## 🤔 Discussion
-
-*What's your take on XR for creative expression? Are we close to democratizing music creation, or do we still have miles to go?*
-
-Feel free to open an issue or start a discussion - I'd love to hear your thoughts on the future of immersive music technology!
-
----
-
 <div align="center">
 
 **🎵 "Sometimes the best projects happen when you just start building and let passion drive the process" 🚀**
