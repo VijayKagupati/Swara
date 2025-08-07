@@ -154,7 +154,7 @@ And all the amazing fellow students who provided feedback and support throughout
 
 **Developer**: Vijay Kagupati  
 **LinkedIn**: [Connect with me](https://linkedin.com/in/vijaykagupati)  
-**Project Duration**: 7 Days (XR Bootcamp Sprint)
+**Project Duration**: 7 Days - XR Bootcamp Sprint
 
 <div align="center">
 
