@@ -158,8 +158,6 @@ And all the amazing fellow students who provided feedback and support throughout
 
 <div align="center">
 
-**🎵 "Sometimes the best projects happen when you just start building and let passion drive the process" 🚀**
-
 *Built with ❤️ during XR Bootcamp*
 
 </div>
